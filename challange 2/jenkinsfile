@@ -1,0 +1,21 @@
+pipeline {
+    agent any 
+        stages{
+            stage("stage 1"){
+                echo "hi"
+            }
+            stage("stage 2"){
+                echo "Gm"
+            }
+            stage("stage 3"){
+                echo "had ur bf"
+            }
+            stage("stage 4"){
+                echo "good afternoon"
+            }
+            stage("stage 5"){
+                echo "good night"
+            }
+        }
+    
+}

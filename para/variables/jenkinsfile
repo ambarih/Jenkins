@@ -1,0 +1,15 @@
+pipeline{
+    agent any 
+    env{
+        def a=10
+        def string="rock"
+    }
+    stages{
+        stage("Test"){
+            steps{
+                echo"int number :${a}"
+                echo"${string}"
+            }
+        }
+    }
+}
